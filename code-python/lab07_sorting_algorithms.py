@@ -3,9 +3,13 @@ import numpy as np
 import time
 
 def selection_sort(a):
+    for i in len(a):
+        minid=a.index(min(a))
+        a[i], a[minid] = a[minid], a[i]
     pass
 
 def insertion_sort(a):
+    
     pass
 
 def bubble_sort(a):
